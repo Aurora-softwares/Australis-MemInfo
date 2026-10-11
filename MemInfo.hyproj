@@ -1,0 +1,13 @@
+format = 2
+name = "Memory Information"
+version = "0.1.0"
+type = "exec"
+output = "mem-info.exec"
+sources = ["src/Program.hy"]
+project_references = []
+
+[package]
+id = "os.australis.mem-info"
+description = "Minimal Australis executable"
+authors = ["Aurora Softwares"]
+license = "MIT"
