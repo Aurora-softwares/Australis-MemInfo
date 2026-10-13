@@ -8,6 +8,6 @@ project_references = []
 
 [package]
 id = "os.australis.mem-info"
-description = "Minimal Australis executable"
+description = "Read-only Australis physical-page and kernel-heap summary"
 authors = ["Aurora Softwares"]
 license = "MIT"
