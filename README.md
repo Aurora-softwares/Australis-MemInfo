@@ -6,9 +6,9 @@ replaces the planned standalone `heap` recovery command without exposing raw
 allocator addresses.
 
 `MemInfo.hyproj` builds `mem-info.exec`. The Australis OS aggregate includes
-this project and installs the executable at `/Bin/mem-info.exec` in the read-only
+this project and installs the executable at `/System/Bin/mem-info.exec` in the read-only
 HyFS 2 boot image. Run `mem-info` through the current recovery shell's `PATH`,
-or use `run /Bin/mem-info.exec`.
+or use `run /System/Bin/mem-info.exec`.
 
 Build this checkout with:
 
